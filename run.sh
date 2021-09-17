@@ -8,4 +8,4 @@ rm challenge_config.zip
 cd evaluation_script
 zip -r ../evaluation_script.zip * -x "*.DS_Store"
 cd ..
-zip -r challenge_config.zip *  -x "*.DS_Store" -x "evaluation_script/*" -x "*.git" -x "run.sh" -x "README.md" -x ".gitignore" -x "example_challenge_config.yaml"
+zip -r challenge_config.zip *  -x "*.DS_Store" -x "evaluation_script/*" -x "*.git" -x "run.sh" -x "README.md" -x ".gitignore" -x "example_challenge_config.yaml" -x "img/*"
